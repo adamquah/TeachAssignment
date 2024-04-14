@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabelSearch">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Search:"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Component id="jLabelTitle" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="724" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jButtonAdd" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="jButtonUpdate" min="-2" pref="88" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jButtonDelete" min="-2" pref="88" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Component id="jLabel3" min="-2" pref="160" max="-2" attributes="0"/>
+                              <Component id="jTextField1" alignment="0" min="-2" pref="266" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabelSearch2" alignment="1" min="-2" pref="150" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="Course" min="-2" pref="323" max="-2" attributes="0"/>
+                                              <Component id="jTextField2" alignment="0" min="-2" pref="266" max="-2" attributes="0"/>
+                                              <Component id="jLabel5" alignment="0" min="-2" pref="160" max="-2" attributes="0"/>
+                                              <Component id="Course1" alignment="0" min="-2" pref="98" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                                          <Component id="jLabelSearch1" min="-2" pref="150" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jTextSearch" min="-2" pref="300" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Component id="jTextSearch1" min="-2" pref="300" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                          <Component id="jButtonSearch" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Component id="jScrollPane1" alignment="1" min="-2" pref="1032" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="907" max="32767" attributes="0"/>
+                      <Component id="jButtonSearch1" min="-2" pref="144" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="jLabelTitle" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelSearch1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextSearch" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                          <Component id="jTextField1" min="-2" pref="38" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="Course" min="-2" pref="35" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelSearch2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextSearch1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButtonSearch" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" pref="28" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="Course1" min="-2" pref="35" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jTextField2" min="-2" pref="38" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jButtonAdd" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButtonUpdate" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButtonDelete" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="415" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="169" max="-2" attributes="0"/>
+                      <Component id="jButtonSearch1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="662" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Select Courses:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter your name"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelTitle">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Tutor, Course &amp; Tutorial Group Information System"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="Course">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="99">
+                <StringItem index="0" value="BBBE 1033 Economics"/>
+                <StringItem index="1" value="BBDM 1043 Principles of Management"/>
+                <StringItem index="2" value="BMIT 1723 IT Fundamentals and Applications"/>
+                <StringItem index="3" value="BBDM 1013 Business Communication"/>
+                <StringItem index="4" value="BBDT 1013 Principles of Marketing"/>
+                <StringItem index="5" value="BBDM 1023 Business Organisation and Management"/>
+                <StringItem index="6" value="BBMF 1813 Principles of Finance"/>
+                <StringItem index="7" value="BAMS 1753 Financial Mathematics"/>
+                <StringItem index="8" value="BBBL 2023 Commercial Law"/>
+                <StringItem index="9" value="BBDM 2153 Operations Management"/>
+                <StringItem index="10" value="BBDT 3264 Big Data Analytics"/>
+                <StringItem index="11" value="BBDT 3244 Digital Marketing"/>
+                <StringItem index="12" value="BBDM 3303 Entrepreneurship"/>
+                <StringItem index="13" value="BMCS 2123 Natural Language Processing"/>
+                <StringItem index="14" value="BBDT 3314 Business Metrics and Analytics"/>
+                <StringItem index="15" value="MPU - 3133 Falsafah dan Isu Semasa"/>
+                <StringItem index="16" value="BJEL 1023 Academic English"/>
+                <StringItem index="17" value="BBFA 2054 Financial Reporting"/>
+                <StringItem index="18" value="BBMF 2093 Corporate Finance"/>
+                <StringItem index="19" value="Business Strategy"/>
+                <StringItem index="20" value="BAMS 1743 Quantitative Methods"/>
+                <StringItem index="21" value="BBBE 2133 Economics for Strategy"/>
+                <StringItem index="22" value="BBBE 2113 Intermediate Microeconomics"/>
+                <StringItem index="23" value="MPU - 3302 Integrity and Anti-Corruption"/>
+                <StringItem index="24" value="BBBE 2033 Malaysian Economy"/>
+                <StringItem index="25" value="BBBE 3814 Econometrics"/>
+                <StringItem index="26" value="BBDM 1063 Organisational Behaviour"/>
+                <StringItem index="27" value="BBDH 2013 Human Resource Management"/>
+                <StringItem index="28" value="BBDM 3013 Business Research"/>
+                <StringItem index="29" value="BBDH 2013 Human Resource Management"/>
+                <StringItem index="30" value="BJEL 1023 Academic English"/>
+                <StringItem index="31" value="MPU-3302 Integrity and Anti-Corruption"/>
+                <StringItem index="32" value="BBDT 2094 Retail Management"/>
+                <StringItem index="33" value="BBDT 2174 Social Commerce"/>
+                <StringItem index="34" value="BBDM 3194 Strategic Planning and Management"/>
+                <StringItem index="35" value="BHEL 1913 English Language"/>
+                <StringItem index="36" value="BBBE 3023 Research Methodology"/>
+                <StringItem index="37" value="BAIT 2123 Internet of Things"/>
+                <StringItem index="38" value="BHFD 2124 Garment and Pattern Construction II"/>
+                <StringItem index="39" value="BHFD 2133 Software Application for Fashion"/>
+                <StringItem index="40" value="BHFD 2143 Advanced Fashion Design Illustration"/>
+                <StringItem index="41" value="MPU - 3103 Falsafah and Isu Semasa"/>
+                <StringItem index="42" value="MPU - 3232 Entrepreneurship"/>
+                <StringItem index="43" value="BTBE 2052 Research Methodology"/>
+                <StringItem index="44" value="BTBE 2023 Civil Engineering Construction Technology"/>
+                <StringItem index="45" value="BTQS 2023 Measurement of Plumbing and Electrical Services"/>
+                <StringItem index="46" value="BTQS 2054 Development Economics"/>
+                <StringItem index="47" value="BTQS 3033 Prices Analysis For External and Plumbing Works"/>
+                <StringItem index="48" value="BTAR 1016 Design Studio I"/>
+                <StringItem index="49" value="BTAR 1013 Architectural Graphic Techniques"/>
+                <StringItem index="50" value="BTAR 1052 Principles of Construction and Materials"/>
+                <StringItem index="51" value="BTAR 1012 History of Eastern Architecture"/>
+                <StringItem index="52" value="BTAR 1062 Environmental Science"/>
+                <StringItem index="53" value="BTGE 1013 Engineering Mathematics"/>
+                <StringItem index="54" value="BTMM 2153 Strength of Materials"/>
+                <StringItem index="55" value="BGMC 4263 Heat Transfer"/>
+                <StringItem index="56" value="BTGE 2033 Engineering Statistics"/>
+                <StringItem index="57" value="BTMH 4443 Robotic Systems and Design"/>
+                <StringItem index="58" value="BGMC 4282 Finite element Analysis"/>
+                <StringItem index="59" value="BGMC 2183 Dynamics"/>
+                <StringItem index="60" value="BTEH 2223 Microprocessor Systems"/>
+                <StringItem index="61" value="BTMH 1313 Industrial Control and Automation"/>
+                <StringItem index="62" value="BACS 2114 Machine Learning"/>
+                <StringItem index="63" value="BGGE 2044 Project Management and Finance"/>
+                <StringItem index="64" value="BTEC 4213 Embedded System"/>
+                <StringItem index="65" value="BGEC 3314 Digital Signal Processing"/>
+                <StringItem index="66" value="BAMS 2414 Statistics Methods for Scientific Analysis"/>
+                <StringItem index="67" value="BAFS 2333 Sensory Evaluation"/>
+                <StringItem index="68" value="BAFS 3343 Food Preservation"/>
+                <StringItem index="69" value="BAFS 2344 Food Microbiology II"/>
+                <StringItem index="70" value="BAFS 3523 Therapeutic Nutrition"/>
+                <StringItem index="71" value="BAFS 1353 Food Analysis"/>
+                <StringItem index="72" value="BAFS 1313 Introduction to Food Science"/>
+                <StringItem index="73" value="BACS 3183 Advanced Database Management"/>
+                <StringItem index="74" value="BMCS 2013 Data Engineering"/>
+                <StringItem index="75" value="BAIT 3003 Data Warehouse Technology"/>
+                <StringItem index="76" value="BMMS 2074 Statistics for Data Science"/>
+                <StringItem index="77" value="BAIT 3013 Information Systems Implementation"/>
+                <StringItem index="78" value="BAIT 3043 IS Strategy and Management"/>
+                <StringItem index="79" value="BAIT 3133 Database Administration"/>
+                <StringItem index="80" value="BAIT 2144 Fundamentals of Computer Networks"/>
+                <StringItem index="81" value="BAMS 1623 Discrete Mathematics"/>
+                <StringItem index="82" value="BACS 2023 Object-oriented Programming"/>
+                <StringItem index="83" value="BACS 1053 Database Management"/>
+                <StringItem index="84" value="BAIT 3013 Business Intelligence"/>
+                <StringItem index="85" value="BACS 2163 Software Engineering"/>
+                <StringItem index="86" value="BAIT 2203 Human Computer Interaction"/>
+                <StringItem index="87" value="BAIT 2073 Mobile Application Development"/>
+                <StringItem index="88" value="BACS 2173 Graphic Programming"/>
+                <StringItem index="89" value="BACS 3074 Artificial Intelligence"/>
+                <StringItem index="90" value="BAIT 3273 Cloud Computing"/>
+                <StringItem index="91" value="BAIT 1093 Introduction to Computer Security"/>
+                <StringItem index="92" value="BACS 2063 Data Structure and Algorithm"/>
+                <StringItem index="93" value="BACS 2033 Software Requirements Engineering"/>
+                <StringItem index="94" value="BACS 2083 Formal Methods for Software Engineering"/>
+                <StringItem index="95" value="BMMS 2633 Advanced Discrete Mathematics"/>
+                <StringItem index="96" value="BAIT 3343 Agile Software Development"/>
+                <StringItem index="97" value="BAIT 3153 Software Project Management"/>
+                <StringItem index="98" value="BACS 2103 Software Quality Assurance and Testing"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CourseActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="TableFacultyProgrammeCourseInfo">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="1">
+                    <Column editable="true" title="Tutor Name" type="java.lang.Object"/>
+                    <Column editable="true" title="Course" type="java.lang.Object"/>
+                    <Column editable="true" title="Course type" type="java.lang.Object"/>
+                    <Column editable="true" title="Tutorial Group" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TableFacultyProgrammeCourseInfoMouseClicked"/>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="TableFacultyProgrammeCourseInfoKeyReleased"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="jButtonAdd">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="69" green="a8" id="Actions.Green" palette="3" red="59" type="palette"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Add"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonUpdate">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="d6" green="9f" id="Actions.Blue" palette="3" red="38" type="palette"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Update"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonUpdateActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonDelete">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="60" green="58" id="Actions.Red" palette="3" red="db" type="palette"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Delete"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonDeleteActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelSearch1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Search:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextSearch">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextSearchActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonSearch">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Search by course"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter Tutorial Group"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelSearch2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Search:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextSearch1">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextSearch1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonSearch1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Search by tutor"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Select Course Type:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="Course1">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="Tutorial "/>
+                <StringItem index="1" value="Practical "/>
+                <StringItem index="2" value="Lecture"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Course1ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
