@@ -1,32 +1,15 @@
-package entity;
+package Entity;
 
-public class TutorCourses implements Comparable<TutorCourse> {
+public class TutorCourses implements Comparable<TutorCourses> {
 
-    public static String getAllCourse() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from 
-    }
-
-    public static void course() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from 
-    }
-
-    public static void addItem(String bmit_1723_IT_Fundamentals_and_Application) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from 
-    }
-
-    public static void removeAllItems() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from 
-    }
     private String courseCode;
     private String courseName;
     private int courseCreditHour;
 
-    public Course(String courseCode, String courseName, int courseCreditHour) {
-
-    }
-
-    public Course() {
-        throw new UnsupportedOperationException("Not supported yet."); 
+    public TutorCourses(String courseCode, String courseName, int courseCreditHour) {
+        this.courseCode = courseCode;
+        this.courseName = courseName;
+        this.courseCreditHour = courseCreditHour;
     }
 
     // Getters and setters
@@ -57,22 +40,11 @@ public class TutorCourses implements Comparable<TutorCourse> {
 
     @Override
     public String toString() {
-        return courseCode + " | " + courseName + " | Credit Hours: " + courseCreditHour;
+        return "Course Code: " + courseCode + ", Course Name: " + courseName + ", Credit Hours: " + courseCreditHour;
     }
 
     @Override
-    public int compareTo(Course c) {
-        return courseName.compareTo(c.courseName);
-    }
-
-    public void setVisible(boolean b) {
-        throw new UnsupportedOperationException("Not supported yet."); 
-
-    public void pack() {
-        throw new UnsupportedOperationException("Not supported yet."); 
-    }
-
-    public void setCourseCreditHours(int newCreditHours) {
-        throw new UnsupportedOperationException("Not supported yet.");
+    public int compareTo(TutorCourses c) {
+        return courseName.compareTo(c.getCourseName());
     }
 }
