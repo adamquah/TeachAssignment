@@ -27,13 +27,13 @@ public class Course_Assign_MaintenanceUI {
     public void listAllTutorInfo(TutorAssign[] tutors){
         System.out.println("\nList of Tutors:");
         for (TutorAssign tutor : tutors) {
-            System.out.println("Tutor name: " + tutor.getTutorName() + ", Course Name:" + tutor.getCourseName() + ", Course Type:" + tutor.getCourseType() + ", Tutorial Group:" + tutor.getTutorialGroup());
+            System.out.println("Tutor name: " + tutor.getName() + ", Course Name:" + tutor.getCourse() + ", Course Type:" + tutor.getCourseType() + ", Tutorial Group:" + tutor.getTutorialGroup());
         }
     }
     
     public void printTutorDetails(TutorAssign tutor){
         System.out.println("Tutor Details");
-        System.out.println("Tutor Name: " + tutor.getTutorName());
+        System.out.println("Tutor Name: " + tutor.getName());
         System.out.println("Course: " + tutor.getCourse());
         System.out.println("Course Type: " + tutor.getCourseType());
         System.out.println("Tutorial Group: " + tutor.getTutorialGroup());
