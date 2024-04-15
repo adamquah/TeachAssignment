@@ -1,71 +1,76 @@
 package Boundary;
 
-import Entity.TutorCourses;
+import Entity.TutorAssign;
 import java.util.Scanner;
 
 public class Course_Assign_MaintenanceUI {
     Scanner scanner = new Scanner(System.in);
-
-    public void listAllCourses(TutorCourses[] courses){
-        System.out.println("\nList of Courses:");
-        for (TutorCourses course : courses) {
-            System.out.println("Tutor name: " + course.getTutorName() + ", Tutor Code: " + course.getTutorID() + ", Course Name:" + course.getCourseName() + ", Course Code:" + course.getCourseID());
+    
+    public int getTutorInfo(){
+        System.out.println("\nMain Menu");
+        System.out.println("1. Add new tutor");
+        System.out.println("2. Add new course");
+        System.out.println("3. Add new course type");
+        System.out.println("4. Add new tutorial group");
+        System.out.println("5. Remove existing list");
+        System.out.println("6. Update list details");
+        System.out.println("7. Display");
+        System.out.println("8. Previous");
+        System.out.println("0. Quit");
+        System.out.println("Enter choice: ");
+        int choice = scanner.nextInt();
+        scanner.nextLine();
+        System.out.println();
+        return choice;
+    }
+    
+    public void listAllTutorInfo(TutorAssign[] tutors){
+        System.out.println("\nList of Tutors:");
+        for (TutorAssign tutor : tutors) {
+            System.out.println("Tutor name: " + tutor.getTutorName() + ", Course Name:" + tutor.getCourseName() + ", Course Type:" + tutor.getCourseType() + ", Tutorial Group:" + tutor.getTutorialGroup());
         }
     }
-
-    public void CourseAssignList(TutorCourses course){
-        System.out.println("Course Details");
-        System.out.println("Tutor Name: " + course.getTutorName());
-        System.out.println("Tutor Code: " + course.getTutorID());
-        System.out.println("Course Name: " + course.getCourseName());
-        System.out.println("Course Code: " + course.getCourseID());
+    
+    public void printTutorDetails(TutorAssign tutor){
+        System.out.println("Tutor Details");
+        System.out.println("Tutor Name: " + tutor.getTutorName());
+        System.out.println("Course: " + tutor.getCourse());
+        System.out.println("Course Type: " + tutor.getCourseType());
+        System.out.println("Tutorial Group: " + tutor.getTutorialGroup());
     }
-
-    public String FacultyList(){
-        StringBuilder sb = new StringBuilder();
-        sb.append("1.FOAS - Faculty of Applied Science\n");
-        sb.append("2.FOCS - Faculty of Computer and Information Technology\n");
-        sb.append("3.FCCI - Faculty of Communication and Creative Industries\n");
-        sb.append("4.FOET - Faculty of Engineering and Technology\n");
-        sb.append("5.FOBE - Faculty of Built Environment\n");
-        sb.append("6.FSSH - Faculty of Social Science and Humanities\n");
-        sb.append("7.FAFB - Faculty of Accountancy, Finance and Business\n");
-        return sb.toString();
+    
+    public String inputTutorName(){
+        System.out.println("Enter tutor name: ");
+        String tutorName = scanner.nextLine();
+        return tutorName;
     }
-
-    public int Faculty(){
-        System.out.println("Select your faculty: ");
-        System.out.println(FacultyList());
-        int faculty;
-        while (true) {
-            try {
-                faculty = Integer.parseInt(scanner.nextLine());
-                if (faculty >= 1 && faculty <= 7) {
-                    break;
-                } else {
-                    System.out.println("Invalid input! Please enter a number between 1 and 7.");
-                }
-            } catch (NumberFormatException e) {
-                System.out.println("Invalid input! Please enter a number between 1 and 7.");
-            }
-        }
-        return faculty;
+    
+    public String inputCourse(){
+        System.out.println("Enter course name: ");
+        String course = scanner.nextLine();
+        return course;
     }
-
-    public String inputName(){
-        System.out.println("Enter your name: ");
-        return scanner.nextLine();
+    
+    public String inputCourseType(){
+        System.out.println("Enter course type: ");
+        String courseType = scanner.nextLine();
+        return courseType;
     }
-
-    public String inputID(){
-        System.out.println("Enter your ID: ");
-        return scanner.nextLine();
+        
+    public String inputTutorialGroup(){
+        System.out.println("Enter tutorial group: ");
+        String tutorialGroup = scanner.next();
+        scanner.nextLine();
+        return tutorialGroup;
     }
-
-    public Course inputCourseDetails() {
-        String tutorName = inputName();
-        String tutorID = inputID();
-        int faculty = Faculty();
-        return new Course(tutorName, tutorID, faculty);
+    
+    public TutorAssign inputTutorDetails(){
+        String tutorName = inputTutorName();
+        String courseName = inputCourse();
+        String courseType = inputCourseType();
+        String tutorialGroup = inputTutorialGroup();
+        
+        System.out.println();
+        return new TutorAssign(tutorName, courseName, courseType, tutorialGroup);
     }
 }
