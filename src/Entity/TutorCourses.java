@@ -1,36 +1,44 @@
-package Entity; // Package declaration should be the first non-comment line
+package entity;
 
-import java.io.Serializable;
+public class TutorCourses implements Comparable<TutorCourse> {
 
-public class TutorCourses implements Serializable {
-    private String tutorName;
-    private String Faculty;
+    public static String getAllCourse() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from 
+    }
+
+    public static void course() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from 
+    }
+
+    public static void addItem(String bmit_1723_IT_Fundamentals_and_Application) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from 
+    }
+
+    public static void removeAllItems() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from 
+    }
+    private String courseCode;
     private String courseName;
-    private String courseID;
+    private int courseCreditHour;
 
-    
-    
-    // Constructor
-    public TutorCourses() {
-          
-    }
-    
-    public String getTutorName() {
-        return tutorName;
+    public Course(String courseCode, String courseName, int courseCreditHour) {
+
     }
 
-    public void setTutorName(String tutorName) {
-        this.tutorName = tutorName;
-    }
-    
-    public String getFaculty() {
-        return Faculty;
+    public Course() {
+        throw new UnsupportedOperationException("Not supported yet."); 
     }
 
-    public void setFaculty(String faculty) {
-        this.Faculty = faculty;
+    // Getters and setters
+
+    public String getCourseCode() {
+        return courseCode;
     }
-      
+
+    public void setCourseCode(String courseCode) {
+        this.courseCode = courseCode;
+    }
+
     public String getCourseName() {
         return courseName;
     }
@@ -38,17 +46,33 @@ public class TutorCourses implements Serializable {
     public void setCourseName(String courseName) {
         this.courseName = courseName;
     }
-    
-     // Getter and setter methods
-    public String getCourseID() {
-        return courseID;
-    }
-    
-    public void setCourseID(String courseID) {
-        this.courseID = courseID;
-    }
-        
-    
-  
-}
 
+    public int getCourseCreditHour() {
+        return courseCreditHour;
+    }
+
+    public void setCourseCreditHour(int courseCreditHour) {
+        this.courseCreditHour = courseCreditHour;
+    }
+
+    @Override
+    public String toString() {
+        return courseCode + " | " + courseName + " | Credit Hours: " + courseCreditHour;
+    }
+
+    @Override
+    public int compareTo(Course c) {
+        return courseName.compareTo(c.courseName);
+    }
+
+    public void setVisible(boolean b) {
+        throw new UnsupportedOperationException("Not supported yet."); 
+
+    public void pack() {
+        throw new UnsupportedOperationException("Not supported yet."); 
+    }
+
+    public void setCourseCreditHours(int newCreditHours) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+}
