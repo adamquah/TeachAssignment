@@ -6,8 +6,8 @@ import Entity.TutorCourses;
 
 public class CourseInitializer {
     
-    public SortedCircularListInterface<Course> initializeCourses() {
-    SortedCircularList<Course> courseList = new SortedCircularList<>();
+    public SortedDoublyLinkedListInterface<Course> initializeCourses() {
+        SortedDoublyLinkedList<Course> courseList = new SortedDoublyLinkedList<>();
    
     
     //Course for FOAS
@@ -153,7 +153,7 @@ public class CourseInitializer {
         courseList.add(new Course("BBDM 3013", "Business Research", 3));
     
         
-        return Courses;
+        return courseList;
     }
     
     }
