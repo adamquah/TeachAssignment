@@ -6,8 +6,8 @@ import Entity.TutorCourses;
 
 public class CourseInitializer {
     
-    public SortedDoublyLinkedListInterface<TutorCourses> initializeCourses() {
-        SortedDoublyLinkedList<TutorCourses> courseList = new SortedDoublyLinkedList<>();
+    public ArrayList<TutorCourses> initializeCourses() {
+        ArrayList<TutorCourses> courseList = new ArrayList<>();
    
     
     //Course for FOAS
@@ -158,4 +158,4 @@ public class CourseInitializer {
     
     }
     
-}
+
