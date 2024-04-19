@@ -11,13 +11,14 @@ public class CourseAssign {
      * @param args the command line arguments
      */+
      
-       private SortedLinkedList<TutorAssign> tutorAssign = new SortedLinkedList<>();
+       private ArrayList<TutorAssign> tutorAssign = new ArrayList<>();
        //private ProductDAO productDAO = new ProductDAO();
        private Course_Assign_MaintenanceUI maintenanceUI = new Course_Assign_MaintenanceUI();
        
        
        
        public tutorMaintenance(){
+           
            
        }
        
