@@ -7,7 +7,7 @@ import java.io.*;
 public class TutorDAO {
     private String fileName="tutors.dat";
     
- public void saveToFile(SortedLinkedListInterface<TutorAssign> TutorList){
+ public void saveToFile(ListInterface<TutorAssign> TutorList){
     File file = new File(fileName);
     try {
       ObjectOutputStream ooStream = new ObjectOutputStream(new FileOutputStream(file));
@@ -22,12 +22,12 @@ public class TutorDAO {
  }
     
     
- public SortedLinkedListInterface<TutorAssign> retrieveFromFile() {
+ public ListInterface<TutorAssign> retrieveFromFile() {
     File file = new File(fileName);
-    SortedLinkedListInterface<TutorAssign> TutorList = new SortedLinkedList<>();
+    ListInterface<TutorAssign> TutorList = new ArrayList<>();
     try {
       ObjectInputStream oiStream = new ObjectInputStream(new FileInputStream(file));
-      TutorList = (SortedLinkedList<TutorAssign>) (oiStream.readObject());
+      TutorList = (ArrayList<TutorAssign>) (oiStream.readObject());
       oiStream.close();
     } catch (FileNotFoundException ex) {
       System.out.println("\nNo such file.");
