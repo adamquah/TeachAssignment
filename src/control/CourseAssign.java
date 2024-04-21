@@ -44,6 +44,11 @@ public class CourseAssign {
         tutorDAO.saveToFile(tutorAssignList);
     }
 
+    public void deleteTutorAssign(int index) {
+        tutorAssignList.remove (index);
+        tutorDAO.saveToFile(tutorAssignList);
+    }
+
     public List<TutorCourses> coursesArrayList() {
         // Create a new list instance.
         List<TutorCourses> list = new LinkedList<TutorCourses>();
